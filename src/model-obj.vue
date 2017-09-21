@@ -46,9 +46,9 @@ export default {
         }
     },
     watch: {
-        mtl () {
-            this.load();
-        }
+        // mtl () {
+        //     this.load();
+        // }
     },
     methods: {
         process ( object ) {
@@ -70,7 +70,7 @@ export default {
             }
 
             const onLoad = object => {
-                
+
                 if ( this.process ) {
                     this.process ( object );
                 }
@@ -95,7 +95,7 @@ export default {
 
                 let mtlPath = this.mtlPath;
                 let mtlSrc = this.mtl;
-                
+
                 if ( !this.mtlPath ) {
 
                     const result = /^(.*\/)([^/]*)$/.exec( this.mtl );
@@ -122,7 +122,7 @@ export default {
                 }, onError );
 
             } else {
-    
+
                 this.loader.load( this.src, onLoad, onError );
 
             }
