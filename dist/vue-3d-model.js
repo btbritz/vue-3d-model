@@ -45073,7 +45073,7 @@ var OrbitControls = function OrbitControls(object, domElement) {
 	this.enableDamping = false;
 	this.dampingFactor = 0.25;
 
-	this.enableZoom = true;
+	this.enableZoom = false;
 	this.zoomSpeed = 1.0;
 
 	this.enableRotate = true;
