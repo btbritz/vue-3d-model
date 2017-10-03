@@ -44850,7 +44850,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     intensity: 0.8
                 }, {
                     type: 'HemisphereLight',
-                    position: { x: 0, y: -10, z: 0 },
+                    position: { x: 0, y: -10, z: -100 },
                     skyColor: 0xaaaaff,
                     groundColor: 0x806060,
                     intensity: 0.2
