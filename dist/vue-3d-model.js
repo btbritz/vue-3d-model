@@ -44849,7 +44849,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     color: 0xffffff,
                     intensity: 0.8
                 }, {
-                    type: 'PointLight',
+                    type: 'DirectionalLight',
                     position: { x: 1, y: 100, z: 100 },
                     color: 0xffffff,
                     intensity: 0.8
