@@ -45087,7 +45087,7 @@ var OrbitControls = function OrbitControls(object, domElement) {
 
 	this.enablePan = true;
 	this.keyPanSpeed = 7.0;
-	this.autoRotate = false;
+	this.autoRotate = true;
 	this.autoRotateSpeed = 2.0;
 	this.enableKeys = true;
 
