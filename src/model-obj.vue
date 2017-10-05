@@ -26,11 +26,10 @@ export default {
                         intensity: 0.8
                     },
                     {
-                        type: 'HemisphereLight',
-                        position: { x: 0, y: -100, z: -100 },
-                        skyColor: 0xaaaaff,
-                        groundColor: 0x806060,
-                        intensity: 0.2
+                        type: 'PointLight',
+                        position: { x: 1, y: 100, z: 100 },
+                        color: 0xffffff,
+                        intensity: 0.8
                     }
                 ]
             }
