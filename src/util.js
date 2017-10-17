@@ -1,6 +1,6 @@
 import { Box3, Vector3, Vector2, BufferAttribute } from 'three';
 
-let box = new Box3();
+var box = new Box3();
 
 function getSize( object ) {
 
